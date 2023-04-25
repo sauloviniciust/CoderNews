@@ -5,6 +5,39 @@
     width: 900px;
 }
 
+.main-menu .wrapper-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid white; */
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 0 1.5rem;
+}
+.main-menu .navigation ul{
+    display: flex;
+    list-style: none;
+    font-size: 24px;
+  
+  }
+/*   
+  .main-menu .navigation ul > li{
+   margin-right: 1rem;
+  } */
+  
+  /* .main-menu .navigation ul > li:last-child{
+    margin-right: 0;
+   } */
+  
+  .main-menu .navigation ul a:hover {
+  color: aqua;
+  
+  }
+  .main-menu .navigation ul a:active {
+    color: rgb(0, 255, 64);
+    
+    }
+
 .body{
     width: 880px;
     font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
