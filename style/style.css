@@ -1,0 +1,35 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    width: 900px;
+}
+
+.body{
+    width: 880px;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    line-height: 1,6;
+}
+
+.place{
+    border-color: #ccc #999 #999 #ccc;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
+    
+}
+.place h1{
+    border-bottom: 1px dashed #7e9f19;
+    margin: 0;
+    width: 880px;
+}
+.place p{
+    width: 880px;
+}
+.titulo .titulo-principal {
+text-align: center;
+    color: #12ad1a;
+
+
+
+}
