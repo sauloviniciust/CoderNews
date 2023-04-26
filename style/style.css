@@ -4,7 +4,13 @@
     box-sizing: border-box;
     width: 900px;
 }
-
+.main-menu{
+    background-color: rgb(177, 171, 171);
+    position: sticky;
+    /* padding: .5rem 0; */
+    /* display: flex;
+    justify-content: center; */
+}
 .main-menu .wrapper-menu{
     display: flex;
     align-items: center;
@@ -30,7 +36,7 @@
    } */
   
   .main-menu .navigation ul a:hover {
-  color: aqua;
+  color: rgb(175, 96, 22);
   
   }
   .main-menu .navigation ul a:active {
@@ -38,10 +44,18 @@
     
     }
 
+    .main-menu .navigation ul a:focus {
+        color: rgb(76, 10, 230);
+        
+        }
+
 .body{
     width: 880px;
     font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     line-height: 1,6;
+}
+.fundo{
+    background-color: #585858;
 }
 
 .place{
